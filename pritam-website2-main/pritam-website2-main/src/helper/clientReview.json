@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "logo": "https://static-00.iconduck.com/assets.00/webflow-icon-2048x515-obs12sby.png",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus  consectetur adipisicing elit. Laborum minima perspiciatis, quae incidunt consectetur animi enim? lorem",
+      "name": "Robin Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "designation": "Product Developer at Webflow"
+    },
+    {
+      "id": 2,
+      "logo": "https://static-00.iconduck.com/assets.00/webflow-icon-2048x515-obs12sby.png",
+      "info": "Lorem, ipsum  consectetur adipisicing elit. Laborum minima sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim? lorem",
+      "name": "Robin Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "designation": "Product Developer at Webflow"
+    },
+    {
+      "id": 3,
+      "logo": "https://static-00.iconduck.com/assets.00/webflow-icon-2048x515-obs12sby.png",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis  consectetur adipisicing elit. Laborum minima pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim? lorem",
+      "name": "Robin Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "designation": "Product Developer at Webflow"
+    },
+    {
+      "id": 4,
+      "logo": "https://static-00.iconduck.com/assets.00/webflow-icon-2048x515-obs12sby.png",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis,  consectetur adipisicing elit. Laborum minima pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim? lorem",
+      "name": "Robin Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "designation": "Product Developer at Webflow"
+    },
+    {
+      "id": 5,
+      "logo": "https://static-00.iconduck.com/assets.00/webflow-icon-2048x515-obs12sby.png",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima adipisicing elit. Laborum minima perspiciatis, quae quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim? lorem",
+      "name": "Robin Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "designation": "Product Developer at Webflow"
+    },
+    {
+      "id": 6,
+      "logo": "https://static-00.iconduck.com/assets.00/webflow-icon-2048x515-obs12sby.png",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima aspernatur eligendi placeat  consectetur adipisicing elit. Laborum minima perspiciatis, quae natus inventore et non fugiat incidunt consectetur animi enim? lorem",
+      "name": "Robin Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "designation": "Product Developer at Webflow"
+    }
+  ]
+}

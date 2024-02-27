@@ -1,0 +1,23 @@
+
+service: home-drop-assignment
+frameworkVersion: "3"
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev
+  region: us-east-1
+  environment:
+    mongourl: mongodb+srv://saifjava2:saif@cluster0.w3keizu.mongodb.net/Drop-Home-DB?retryWrites=true&w=majority
+    emailpass: hyzcsbbodglsntrr
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          method: ANY
+          path: /{proxy+}
+      - http:
+          method: ANY
+          path: /
+configValidationMode: error

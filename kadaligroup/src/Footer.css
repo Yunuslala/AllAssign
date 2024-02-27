@@ -1,0 +1,59 @@
+.footer{
+    transition: linear 5ms ease;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+}
+
+.footer >div{
+    transition: linear 5ms ease;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+.firstChildFoot{
+    color: white;
+    padding: 0.6vmax;
+    cursor: pointer;
+}
+.firstChildFoot > p{
+    padding: 0.6vmax;
+} 
+.firstChildFoot :hover{
+    background-color: #312f2f;
+    border-radius: 3vmax;
+    transition: linear 3ms ease;
+}
+
+.footLastChild>p{
+    cursor: pointer;
+    background-color: #312f2f;
+    padding: 0;
+    color: white;
+    padding: 0.6vmax;
+    border-radius: 3vmax;
+}
+.footLastChild :hover{
+
+    background:linear-gradient(50deg, #3189d7, #6745e3);
+    border-radius: 3vmax;
+    transition: linear 5ms ease;
+}
+.AlertBox{
+position: absolute;
+left:0;
+bottom: 0;
+}
+@media screen and (max-width:600px) {
+    .footer{
+
+        width: 100vmax;
+        background-color: black;
+       margin: 0;
+    }
+}

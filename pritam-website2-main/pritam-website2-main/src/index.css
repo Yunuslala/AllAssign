@@ -1,0 +1,84 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:where(
+    .css-dev-only-do-not-override-14wwjjs
+  ).ant-skeleton.ant-skeleton-element {
+  width: 100%;
+  height: 100%;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-skeleton.ant-skeleton-element
+  .ant-skeleton-image {
+  width: 100%;
+  height: 100%;
+}
+
+.AddScreeenBg {
+  background: linear-gradient(
+    90deg,
+    #a7d1e1 0%,
+    #1b9eb2 67.32%,
+    #0c5c75 130.56%
+  );
+  box-shadow: 0px -20px 40px 4px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  z-index: 9999;
+}
+.AddScreeen {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+}
+.AddScreeen img {
+  max-width: 25%;
+  width: 100%;
+}
+.AddScreeen p {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 39px;
+  width: 400px;
+}
+.AddScreeen button {
+  background: #0c5c75;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #0c5c75;
+}
+.AddScreeen i {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 35px;
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.parnetContainer{
+  width: 93vmax;
+  height: auto;
+  /* text-align: center; */
+  margin: auto;
+}
+.ElementContainer{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  /* justify-content: center; */
+
+
+}
+.firstChild {
+  color: #ffff;
+  display: flex;
+  margin: auto;
+  margin-top: 2vmin;
+  align-items: center;
+  text-align: center;
+  width: 26vmax;
+  margin-left: 2vmin;
+  place-content: flex-end;
+}
+
+
+.firstChild img{
+  width: 5vmax;
+}
+.firstChild>div{
+  display: flex;
+  flex-direction: column;
+  height: 5vmax;
+  padding-left: 2vmin;
+  align-items: flex-start;
+}
+.firstChild>div:first-child{
+    line-height: 1.39436522em;
+    text-transform: none;
+    letter-spacing: 0.022em;
+            
+}
+.firstChild>div :nth-child(1){
+  font-family: cursive;
+
+}
+.firstChild>div :nth-child(2){
+ /* color: aquamarine; */
+
+ margin-top: -1.2vmax;
+ font-family: 'Roboto';
+}
+.BtnsDiv {
+  /* width: 100vmax; */
+  width: 75%;
+  /* margin: auto; */
+  display: flex;
+  place-content: flex-start;
+  padding-left: 3vmax;
+}
+.BtnsDiv >button{
+  border: none;
+  background-color:transparent;
+  color: #ffff;
+  font-size: 2.2vmax;
+  padding:0 2vmax;
+}
+
+.ImgDiv {
+  width: 30%;
+  padding: 2vmax 10vmax;
+ 
+  position: relative;
+  display: flex;
+  place-content: flex-start;
+ 
+}
+.ImgDiv > div {
+  width: 20vmax;
+  border-radius: 20px;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+ 
+  /* display: none; */
+ 
+}
+.InnerImage > img {
+  width: 40vmax;
+  height: 40vmax;
+  position: relative;
+  left: -12vmax;
+ 
+}
+
+.TextBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  color: #ffff;
+  
+  width: 40vmax;
+  padding-left: 6vmax;
+ 
+  /* margin-left: 60px; */
+}
+.TextBtnContainer :first-child{
+  font-size: 4.8vmax;
+  font-family: 'Roboto';
+  margin: 0;
+}
+.TextBtnContainer :first-child+p,.TextBtnContainer :first-child+p+p{
+  font-size: 2.3vmax;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+.TextBtnContainer :last-child{
+/* background-color:linea #e83c80; */
+background:linear-gradient(50deg, #a13fea, #e83c80);
+
+margin-top:2vmax ;
+padding:1.5vmax 1.8vmax;
+border: none;
+width: 15vmax;
+font-size: 1.3vmax;
+font-weight: bolder;
+border-radius: 2.5vmax;
+}
+
+.UpperImage > img {
+  /* display: none; */
+  width: 39vmax;
+  height: 26vmax;
+  position: absolute;
+  top: 8vmax;
+  left: -1vmax;
+  border-radius: 35px;
+ 
+}
+
+@media screen and (max-width:600px) {
+ .ElementContainer{
+  width: 100%;
+ }
+}

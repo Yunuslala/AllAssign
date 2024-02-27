@@ -1,0 +1,53 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "texely -node-dev",
+        "app_desc": "texely-node-dev",
+        "node_port": 3021,
+        "json_indentation": 4,
+        "host": "localhost",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "RazorpaySecret": "RazorpaySecret",
+        "database": "texely-node-dev",
+        "url": "",
+        "swaggerURL": "localhost:3021",
+        "nodemailer": {
+            "user": "testingnodejsapi@gmail.com",
+            "pass": "Mobiloitte@1"
+        }
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 1835,
+        "database": "texely-node-stage",
+        "swaggerURL": "texely.houszzz.com",
+        "host": "localhost",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "nodemailer": {
+            "user": "testingnodejsapi@gmail.com",
+            "pass": "Mobiloitte@1"
+        },
+        "cloudinary": {
+            "cloud_name": "mobiloitte-testing",
+            "api_key": "443422451227996",
+            "api_secret": "SVuCqSWA6WwFsNvDx-6qfd7lSfU"
+        }
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 1801,
+        "database": "texely-node",
+        "host": "localhost",
+        "basicAuthUser": "",
+        "user": "node-trainee@mobiloitte.com",
+        "pass": "Mobiloitte1",
+        "basicAuthKey": "`",
+        "cloudinary": {
+            "cloud_name": "",
+            "api_key": "",
+            "api_secret": ""
+        }
+    }
+}

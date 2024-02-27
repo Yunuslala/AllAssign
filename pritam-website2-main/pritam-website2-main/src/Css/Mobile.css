@@ -1,0 +1,1112 @@
+/** @format */
+
+@media (max-width: 768px) {
+  .Navbar {
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .Hide_On_Tab {
+    display: none;
+  }
+
+  .Navbar .main .fa-bars {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .Tab_Burger {
+    width: 60% !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .Banner {
+    min-height: 400px;
+    max-height: 450px;
+  }
+  .Banner .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .Banner h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .Banner .content .two_button {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Banner .content .two_button button {
+    width: 60% !important;
+    font-size: 16px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .Banner .content .two_button button img {
+    display: none;
+  }
+  .Banner p {
+    overflow-y: hidden;
+  }
+  .Banner .content .Bottom_Button {
+    height: 40px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .Banner .content .Bottom_Button img {
+    display: none;
+  }
+
+  .Link_Section {
+    left: 90%;
+  }
+  .Link_Section img {
+    width: 35px;
+  }
+
+  .Service_Slider_Container .Service_Slider .Main {
+    width: 95% !important;
+    height: 420px !important;
+  }
+  .Service_Slider_Container .Service_Slider .Main img {
+    width: 100%;
+  }
+  .Index_Banner_Two_Sec {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    height: 100%;
+    max-height: 100%;
+  }
+  .Index_Banner_Two_Sec .left {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: auto;
+  }
+  .Index_Banner_Two_Sec .left img {
+    width: 100%;
+  }
+  .Index_Banner_Two_Sec .right {
+    width: 100%;
+  }
+  .Index_Banner_Two_Sec .right .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    padding: 10px;
+  }
+  .Index_Banner_Two_Sec .right .content h5 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .Index_Banner_Two_Sec .right .content p {
+    font-size: 14px;
+  }
+
+  .Index_Buisness_Banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Index_Buisness_Banner .left {
+    width: 90%;
+    margin: auto;
+  }
+  .Index_Buisness_Banner .left h5 {
+    font-size: 20px;
+    max-width: 100%;
+  }
+  .Index_Buisness_Banner .left p {
+    max-width: 100%;
+  }
+  .Index_Buisness_Banner .right {
+    width: 100%;
+  }
+  .Index_Buisness_Banner .right img {
+    max-height: 300px;
+    width: auto;
+  }
+
+  .Index_Buisness_Banner .left .Two_Sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .Index_Buisness_Banner .left .Two_Sec .Main {
+    width: 100%;
+  }
+
+  .AboutUs h2 {
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  .AboutUs .content {
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .About_Us-Content h5 {
+    font-size: 25px;
+  }
+  .About_Us-Content p {
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: normal;
+  }
+
+  .About_Us-two_Sec {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+  }
+  .About_Us-two_Sec .left {
+    width: 100%;
+  }
+  .About_Us-two_Sec .left img {
+    width: 100%;
+  }
+  .About_Us-two_Sec .right {
+    width: 100%;
+  }
+  .About_Us-two_Sec .right p {
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .About-Us_Newsletter {
+    max-height: 100%;
+    display: block;
+  }
+  .About-Us_Newsletter .left {
+    width: 100%;
+  }
+  .About-Us_Newsletter .left img {
+    width: 100%;
+    max-height: 400px;
+    height: auto;
+  }
+  .About-Us_Newsletter .right {
+    width: 100% !important;
+  }
+  .About-Us_Newsletter .right .content {
+    width: 100%;
+    padding: 20px;
+  }
+  .About-Us_Newsletter .right .content h5 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .About-Us_Newsletter .right .content .desc {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .About-Us_Newsletter .right .content .NewsLetter_Button {
+    width: 90%;
+    height: 45px;
+    font-size: 15px;
+  }
+  .About-Us_Newsletter .right .content .Whatsapp_Button {
+    width: 90%;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .About-Us_Newsletter .right .content .Assistance_P {
+    font-size: 15px;
+  }
+
+  .Event_Booking-Banner .upper h5 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .Event_Booking-Banner .upper p {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .Event_Booking-Banner .down {
+    max-height: 100% !important;
+  }
+  .Event_Booking-Banner .down .main {
+    top: 0 !important;
+    position: relative;
+    display: block;
+  }
+  .Event_Booking-Banner .down .main .content {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Event_Booking-Banner .down .main .content h5 {
+    font-size: 25px;
+  }
+  .Event_Booking-Banner .down {
+    max-height: 400px;
+    min-height: 300px;
+  }
+
+  .Event_Booking-Video {
+    min-height: 50px;
+    max-height: 100%;
+    margin-top: 0;
+  }
+  .Event_Booking-Video img {
+    max-height: 300px;
+    width: 50%;
+  }
+
+  .Contact-Us_Banner {
+    min-height: 400px;
+  }
+  .Contact-Us_Banner .content h2 {
+    font-size: 25px;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .Contact-Us_Banner .content p {
+    padding: 10px;
+    line-height: normal;
+    margin-top: 0;
+  }
+  .Contact-Us_Banner .content {
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .contact-us-overflow-main .Content {
+    width: 100%;
+    margin-left: 0;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    transform: none;
+    left: 0;
+  }
+
+  .contact-us-overflow-main .Content .Main {
+    padding: 0;
+  }
+  .contact-us-overflow-main .Content .Main h5 {
+    font-size: 25px;
+    line-height: normal;
+    padding-top: 20px;
+  }
+  .contact-us-overflow-main .Content .Main p {
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 0 !important;
+    width: 100%;
+  }
+  .contact-us-overflow-main .Content .office_images {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .contact-us-overflow-main .Content .office_images .container p {
+    font-size: 30px;
+  }
+  .contact-us-overflow-main .Content .office_images .container {
+    width: 100%;
+  }
+  .contact-us-overflow-main .Content .icon-div {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .contact-us-overflow-main .Content .icon-div .left {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact-us-overflow-main .Content .icon-div .left .container {
+    width: 100%;
+    gap: 5px;
+  }
+  .contact-us-overflow-main .Content .icon-div .left .container i {
+    font-size: 14px;
+  }
+  .contact-us-overflow-main .Content .icon-div .left .container p {
+    font-size: 14px;
+  }
+  .paddingLeft_second {
+    padding-left: 0 !important;
+  }
+  .contact-us-overflow-main .Content .icon-div .left .container button {
+    margin-left: 0;
+  }
+
+  .contact-query-form .desc {
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .contact-query-form form {
+    max-width: 100%;
+  }
+  .contact-query-form form .Whatsapp_Button {
+    width: 100%;
+  }
+  .contact-query-form form .submit-btn {
+    width: 100%;
+  }
+
+  .Center_Heading h5 {
+    font-size: 25px;
+  }
+  .sign-in-account-selector {
+    display: block;
+    margin: 0;
+  }
+  .sign-in-account-selector .container {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .sign-in-account-selector .container img {
+    width: 100px;
+    max-width: 100px;
+  }
+
+  .Find-Work-Banner .upper {
+    min-height: 200px;
+    margin-bottom: 20px;
+    max-height: 400px;
+  }
+  .Find-Work-Banner .upper h5 {
+    font-size: 25px;
+  }
+  .Find-Work-Banner .upper p {
+    padding: 10px;
+  }
+  .Find-Work-Banner .down .main .content {
+    width: 90%;
+    background-position: center;
+    margin: auto;
+    height: 300px;
+    background-size: cover;
+  }
+
+  .Find-Work-Banner .down .main .content h5 {
+    font-size: 25px;
+  }
+
+  .Find-Work-Banner .down .main .content button {
+    /* display: none; */
+    margin-top: 20px;
+  }
+
+  .Find_work_contact_form {
+    display: block;
+    width: 100%;
+    max-width: 95%;
+  }
+
+  .Find_work_contact_form .left_container {
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .Find_work_contact_form .left_container .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+  }
+  .Find_work_contact_form .left_container .content h5 {
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
+    margin: auto;
+    width: 100%;
+  }
+  .Find_work_contact_form .left_container .content p {
+    width: 100%;
+    max-width: 100%;
+  }
+  .Find_work_contact_form .right_container {
+    width: 100%;
+  }
+
+  .Center_Heading h5 {
+    font-size: 30px;
+  }
+  .Center_Heading {
+    padding: 0;
+  }
+  .Center_Heading .desc {
+    padding: 0px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .Event_Booking-Banner .upper {
+    height: 100%;
+  }
+
+  .Staff_Desc {
+    max-width: 750px;
+    padding: 10px;
+  }
+  .Staff_Desc h5 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .Staff_Desc p {
+    font-size: 14px;
+  }
+
+  .courses_overflow .Contact-Us_Banner {
+    min-height: 300px;
+    max-height: 500px;
+  }
+
+  .courses_overflow .Contact-Us_Banner .content h2 {
+    font-size: 20px;
+  }
+
+  .courses_overflow .contact-us-overflow-main .office_images {
+    display: block;
+  }
+
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .office_images
+    .container {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .office_images
+    .container
+    p {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .courses_overflow .contact-us-overflow-main .Content .Main {
+    display: block;
+  }
+  .courses_overflow .contact-us-overflow-main .Content .Main .search {
+    /* display: block; */
+    width: 100%;
+  }
+  .courses_overflow .contact-us-overflow-main .Content .icon-div {
+    margin-top: 0;
+  }
+  .courses_overflow .contact-us-overflow-main .Content .icon-div .left {
+    width: 100%;
+  }
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .icon-div
+    .left
+    .container {
+    width: 100%;
+  }
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .icon-div
+    .left
+    .container
+    .desc {
+    text-align: left;
+    margin: 0;
+  }
+
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .icon-div
+    .left
+    .container
+    p {
+    font-size: 14px;
+  }
+
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .About-Us_Newsletter
+    .left {
+    width: 100%;
+  }
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .About-Us_Newsletter
+    .left {
+    height: 100%;
+    width: auto;
+  }
+  .courses_overflow
+    .contact-us-overflow-main
+    .Content
+    .About-Us_Newsletter
+    .right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .Community_Page .Find_work_contact_form .left_container {
+    width: 90%;
+    margin: auto;
+  }
+  .Community_Page .Find_work_contact_form .right_container {
+    width: 90%;
+    margin: auto;
+  }
+  .Community_Page .Find_work_contact_form .left_container .content h5 {
+    text-align: center;
+  }
+  .Community_Page .Find_work_contact_form .left_container .content {
+    width: 100%;
+  }
+  .Community_Page .Find_work_contact_form .left_container .content p {
+    text-align: center;
+  }
+
+  .Book-An-Event .Banner .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    padding-top: 10px;
+  }
+  .Book-An-Event .Find_work_contact_form {
+    align-items: center;
+  }
+  .Book-An-Event .Find_work_contact_form .left_container {
+    padding: 0;
+  }
+  .Book-An-Event .Find_work_contact_form .left_container .Three_Div {
+    width: 100%;
+    padding: 0;
+  }
+  .Book-An-Event .Find_work_contact_form .left_container .Three_Div .Item {
+    width: 100%;
+  }
+  .Book-An-Event
+    .Find_work_contact_form
+    .left_container
+    .Three_Div
+    .Item:first-child {
+    margin-top: 20px !important;
+  }
+
+  .Book-An-Event .About_Us .Item {
+    margin-top: 20px;
+  }
+
+  .Book-An-Event .Find_work_contact_form .right_container {
+    margin-top: 20px;
+  }
+
+  .Book-An-Event
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .head {
+    font-size: 25px;
+  }
+
+  .Book-An-Event
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    form
+    .two-inputs {
+    display: block;
+  }
+  .Book-An-Event
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    form
+    .two-inputs
+    div {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .Book-Full-Service
+    .Find_work_contact_form
+    .left_container
+    .About_Us
+    .Three_Div {
+    margin-top: 0;
+  }
+  .Book-Full-Service
+    .Find_work_contact_form
+    .left_container
+    .About_Us
+    .Three_Div
+    .Item {
+    height: 100%;
+  }
+  .Book-Full-Service
+    .Find_work_contact_form
+    .left_container
+    .About_Us
+    .Three_Div
+    .upper {
+    width: 100% !important;
+  }
+
+  .permanent-job .Banner {
+    min-height: 300px;
+    max-height: 400px;
+  }
+
+  .permanent-job .Banner .content p {
+    max-height: 80px;
+    overflow: hidden;
+  }
+
+  .permanent-job .Register_Div {
+    max-width: 90%;
+    display: block;
+  }
+
+  .permanent-job .Register_Div .left_container {
+    width: 100%;
+  }
+  .permanent-job .Register_Div .left_container h5 {
+    font-size: 20px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .permanent-job .Register_Div .right_container {
+    width: 100%;
+  }
+
+  .permanent-job .Register_Div .right_container img {
+    width: auto;
+    display: block;
+    margin: auto;
+    max-height: 100% !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .permanent-job .contact-us-form h5 {
+    font-size: 20px;
+  }
+  .permanent-job .contact-us-form .Form-Container {
+    max-width: 760px;
+    display: block;
+  }
+  .permanent-job .contact-us-form .Form-Container .left-container {
+    width: 100%;
+  }
+  .permanent-job .contact-us-form .Form-Container .left-container img {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    margin: auto;
+  }
+  .permanent-job .contact-us-form .Form-Container .right-container {
+    width: 100%;
+  }
+  .permanent-job .contact-us-form .Form-Container .right-container form {
+    width: 90%;
+  }
+  .permanent-job
+    .contact-us-form
+    .Form-Container
+    .right-container
+    .whatsapp-button {
+    width: 90%;
+    font-size: 15px;
+  }
+  .permanent-job .contact-us-form .Form-Container .right-container .contact {
+    width: 90%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .permanent-job .Event_Booking-Video {
+    height: 300px;
+    min-height: 300px;
+  }
+  .casual-staff .Banner {
+    min-height: 300px;
+    max-height: 400px;
+    padding: 20px;
+  }
+  .casual-staff .Banner .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+  }
+
+  .Find_Work_Modal .two-btn {
+    display: block;
+  }
+  .Find_Work_Modal h6 {
+    font-size: 25px;
+  }
+  .Find_Work_Modal .two-btn button {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .contact-faq {
+    width: 90%;
+  }
+  .contact-faq h5 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .contact-faq .accordion .accordion-body {
+    font-size: 12px;
+  }
+
+  .Chef_Modal .container {
+    display: block;
+  }
+  .Chef_Modal .container .left {
+    width: 100%;
+  }
+  .Chef_Modal .container .left img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .Chef_Modal .container .right {
+    width: 100%;
+  }
+  .Chef_Modal .container .right h5 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .Chef_Modal .container .right .desc {
+    font-size: 14px;
+    text-align: center;
+  }
+  .Chef_Modal .container .right .small-C .two-sec p {
+    font-size: 15px;
+  }
+
+  .Event-Booking-Banner .down .main {
+    top: -80px;
+  }
+
+  .Footer .Upper_Div {
+    width: 100%;
+    display: block;
+    padding: 20px;
+  }
+  .Footer .Upper_Div div {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .Footer .Upper_Div div p {
+    font-size: 17px;
+  }
+  .Footer .Upper_Div div button {
+    width: 100%;
+    font-size: 14px;
+  }
+  .Footer .Down_Div {
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+  }
+  .Footer .Down_Div .left h5 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .Footer .Down_Div .left .two_sec {
+    margin-top: 8px;
+  }
+  .Footer .Down_Div .left .two_sec p {
+    font-size: 14px;
+  }
+  .Footer .Down_Div .left .copyRight {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .Footer .Down_Div .right {
+    width: 100%;
+  }
+  .Footer .Down_Div .right img {
+    width: 100%;
+  }
+
+  .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    form
+    .submit-btn {
+    width: 100%;
+  }
+  .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    form
+    .Whatsapp_Button {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+  .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    form
+    .contact_Detail {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    form
+    .contact_Detail
+    i {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .Staff-Login-Container {
+    margin-bottom: 20px;
+  }
+  .Staff-Login-Container .Training_Course .Event_Booking-Banner {
+    height: 120px;
+  }
+
+  .Staff-Login-Container .Training_Course .contact-us-overflow-main {
+    margin-top: 20px;
+  }
+
+  .Staff-Login-Container
+    .Training_Course
+    .contact-us-overflow-main
+    .Content
+    .contact-query-form
+    .head {
+    font-size: 20px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .Staff-Login-Container
+    .Training_Course
+    .contact-us-overflow-main
+    .Content
+    .contact-query-form
+    .two-inputs {
+    display: block;
+  }
+
+  .Staff-Login-Container
+    .Training_Course
+    .contact-us-overflow-main
+    .Content
+    .contact-query-form
+    form
+    .two-inputs
+    div {
+    width: 100% !important;
+  }
+
+  .casual-staff .Community_Page .Find_work_contact_form .left_container {
+    width: 100%;
+    padding: 0;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .left_container
+    .content
+    h5 {
+    font-size: 20px;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .left_container
+    .content
+    p {
+    line-height: normal;
+  }
+
+  .casual-staff .Community_Page .Find_work_contact_form .right_container {
+    margin-top: 10px;
+  }
+  .casual-staff .Community_Page .Find_work_contact_form .right_container h5 {
+    font-size: 20px;
+  }
+
+  .casual-staff .Community_Page .Find_work_contact_form .right_container h5 {
+    line-height: normal;
+  }
+
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .two-inputs {
+    display: block;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .two-inputs
+    div {
+    width: 100%;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .Two_Inputs {
+    display: block;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .Two_Inputs
+    div {
+    width: 100%;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .submit-btn {
+    width: 100%;
+  }
+  .casual-staff
+    .Community_Page
+    .Find_work_contact_form
+    .right_container
+    .contact-query-form
+    .Whatsapp_Button {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .sideBarContainer {
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .mobile-sidebar-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .logoContainer {
+    padding: 0;
+    padding: 20px;
+    padding-left: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logoContainer > a > img {
+    margin-bottom: 20px;
+    width: 100px;
+  }
+  .icons {
+    font-size: 40px;
+  }
+
+  .para-div {
+    width: 90%;
+  }
+  .hoverLinkStyles {
+    margin: 0;
+    font-size: 20px;
+    gap: 20px;
+  }
+  .smallIcons {
+    font-size: 25px;
+  }
+
+  .homeImage {
+    height: 100%;
+  }
+
+  .ham_menu {
+    margin-left: 40px;
+  }
+  .BackViedo {
+    height: 400px;
+  }
+  .imageInfo {
+    width: 100%;
+  }
+
+  .Contact-Us_Banner .content {
+    width: 100% !important;
+  }
+  .Contact-Us_Banner .content p {
+    text-align: center;
+  }
+  .About-Us_Newsletter .right .content .contact_Detail {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Event_Booking-Banner .down .main .content button {
+    padding: 10px;
+  }
+  .contsc_work_form_2 .left_container {
+    max-height: 400px;
+  }
+  .contact-query-form form .Whatsapp_Button{
+    font-size: 14px;
+  }
+  .about-item-container .about-item img{
+    width: 100%;
+    height: auto;
+  }
+  .Find-Work-Banner .down .main .content .desc{
+    top: 50%;
+  }
+}

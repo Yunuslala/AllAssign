@@ -1,0 +1,950 @@
+/** @format */
+
+.Backward_Heading {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.Backward_Heading img {
+  width: 50px;
+  cursor: pointer;
+}
+.Backward_Heading p {
+  color: #042b26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  width: 95%;
+}
+
+.Appointment_Selection {
+  background: #042b26;
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Appointment_Selection .title {
+  margin: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 25px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Appointment_Selection .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Appointment_Selection .boxes .Item {
+  width: 30%;
+  background: #e5d896;
+  padding: 20px;
+}
+
+.Appointment_Selection .boxes .Item img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.Appointment_Selection .boxes .Item p {
+  color: #042b26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.Indivisual-Appointment {
+  background: #042b26;
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Indivisual-Appointment .title {
+  color: #e5d896;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.Indivisual-Appointment form {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Indivisual-Appointment form div p {
+  color: #e5d896;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Indivisual-Appointment form div input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-top: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Indivisual-Appointment form div {
+  margin-top: 20px;
+}
+
+.Indivisual-Appointment form div.check {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.Indivisual-Appointment form div.check input {
+  width: 20px;
+  height: 20px;
+}
+.Indivisual-Appointment form div.check p {
+  text-align: left;
+  margin: 0;
+}
+.Indivisual-Appointment form div.check div {
+  margin-top: 0;
+}
+.Indivisual-Appointment form div.check div p.title {
+  font-size: 20px;
+}
+.Indivisual-Appointment form div.check div p.desc {
+  font-size: 18px;
+  color: #fff;
+}
+.Indivisual-Appointment form .gender_selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.Indivisual-Appointment form .gender_selection img {
+  width: 200px;
+}
+.Indivisual-Appointment form .Full_Image {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.Indivisual-Appointment form button {
+  width: 100%;
+  padding: 10px;
+  background: #e5d896;
+  color: #042b26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.step_Heading .title {
+  width: 40%;
+}
+.step_Heading div {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.step_Heading div p {
+  font-size: 25px;
+}
+.schedule_1 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.schedule_1 .left_div {
+  width: 60%;
+}
+.schedule_1 .right_div {
+  width: 35%;
+}
+
+.schedule_1 .left_div .Menu_List {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+}
+.schedule_1 .left_div .Menu_List li {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.schedule_1 .left_div .Menu_List li:active,
+.schedule_1 .left_div .Menu_List li:focus,
+.schedule_1 .left_div .Menu_List li:hover {
+  color: #042b26 !important;
+  font-weight: 600;
+  border-bottom: 1px solid #042b26;
+}
+
+.schedule_1 .left_div .title {
+  color: #042b26;
+  font-family: Poppins;
+  font-size: 24px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.schedule_1 .left_div .Box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.schedule_1 .left_div .Box .Item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.schedule_1 .left_div .Box .Item p {
+  margin: 0;
+}
+.schedule_1 .left_div .Box .Item input {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.schedule_1 .left_div .Box .Item p.title {
+  font-size: 18px;
+}
+.schedule_1 .left_div .Box .Item p.desc {
+  font-size: 16px;
+  font-family: Poppins;
+}
+.schedule_1 .left_div .Box .Item .description-box {
+  width: 70%;
+}
+.schedule_1 .left_div .Box .Item .price-Box {
+  width: 20%;
+  text-align: right;
+}
+
+.schedule_1 .left_div .Box .Item .description-box ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.schedule_1 .left_div .Box .Item .description-box ul li {
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+.schedule_1 .right_div .Box {
+  border: 1px solid #000;
+  padding: 20px;
+}
+.schedule_1 .right_div .Box .two-sec {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.schedule_1 .right_div .Box .two-sec div p.title {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.schedule_1 .right_div .Box .two-sec img {
+  width: 100px;
+}
+.schedule_1 .right_div .Box .Stars {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.schedule_1 .right_div .Box .Stars span {
+  display: flex;
+  gap: 5px;
+}
+.schedule_1 .right_div .Box .Stars span svg {
+  color: #fcba03;
+  font-size: 18px;
+}
+.schedule_1 .right_div .Box .Stars span {
+  font-family: Poppins;
+}
+
+.schedule_1 .right_div .Box .two-sec .contact-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
+.schedule_1 .right_div .Box .two-sec .contact-info svg {
+  font-size: 14px;
+}
+.schedule_1 .right_div .Box .two-sec .contact-info p {
+  margin: 0;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+}
+.schedule_1 .right_div .Box .locate_btn {
+  width: 100%;
+  padding: 10px;
+  color: #0eab61;
+  border: 1px solid #0eab61;
+  font-family: Poppins;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.schedule_1 .right_div .Box .Items {
+  padding: 20px;
+  border-top: 1px solid #000;
+  margin-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.schedule_1 .right_div .Box .Items .two-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule_1 .right_div .Box .Items .two-div p.head {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.schedule_1 .right_div .Box .Items .two-div p.desc {
+  font-size: 14px;
+  font-weight: 500;
+}
+.schedule_1 .right_div .Box .Items .two-div p.delete {
+  color: #fc0005;
+  font-size: 14px;
+  font-weight: 500;
+}
+.schedule_1 .right_div .book {
+  background: #042b26;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  color: #dbaa4b;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.schedule_1 .right_div .border-collapsed {
+  height: 1px;
+  width: 100%;
+  border: 1px dashed #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.schedule_1 .right_div .Box .search-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.schedule_1 .right_div .Box .search-div input {
+  width: 100%;
+  font-family: Poppins;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.schedule_1 .right_div .Box .search-div svg {
+  font-size: 20px;
+  font-weight: bold;
+}
+.schedule_1 .right_div .Box .add-on {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.schedule_1 .right_div .Box .add-on .left .head {
+  display: flex;
+  gap: 10px;
+}
+.schedule_1 .right_div .Box .add-on .left .head .title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.schedule_1 .right_div .Box .add-on .left .head .price {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: #dbaa4b;
+}
+.schedule_1 .right_div .Box .add-on .left .desc {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+}
+.schedule_1 .right_div .Box .add-on input {
+  width: 20px;
+  height: 20px;
+}
+
+.schedule_1 .left_div .react-calendar {
+  display: block;
+  margin: auto;
+  font-family: Poppins !important;
+  width: 450px;
+}
+.schedule_1 .left_div .react-calendar__navigation {
+  background-color: #042b26;
+  color: #fff;
+  margin-bottom: 0;
+}
+.schedule_1 .left_div .react-calendar__month-view__weekdays {
+  background-color: #e5d896;
+  color: #1e1e1e;
+  padding: 10px;
+}
+.schedule_1 .left_div .react-calendar__month-view__days {
+  padding: 10px;
+  background-color: #ebebeb;
+}
+
+.schedule_1 .left_div .review_box {
+  border: 1px solid #000;
+  padding: 40px;
+}
+.schedule_1 .left_div .review_box p {
+  margin: 0;
+}
+.schedule_1 .left_div .review_box p.desc {
+  font-family: Poppins;
+  font-size: 16px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+.schedule_1 .left_div .review_box form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.schedule_1 .left_div .review_box form div p {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.schedule_1 .left_div .review_box form div {
+  margin-top: 20px;
+}
+.schedule_1 .left_div .review_box form div input {
+  width: 100%;
+  border: 1px solid #000;
+  outline: none;
+  padding: 10px;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+.schedule_1 .left_div .review_box form .two_input {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.schedule_1 .left_div .review_box form .two_input .first {
+  width: 30%;
+}
+.schedule_1 .left_div .review_box form .two_input div {
+  width: 60%;
+}
+.schedule_1 .left_div .review_box form .payment_div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.schedule_1 .left_div .review_box form .border-line {
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+  margin-top: 50px;
+}
+.schedule_1 .left_div .review_box form div textarea {
+  width: 100%;
+  border: 1px solid #000;
+  outline: none;
+  padding: 10px;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 40px;
+  height: 150px;
+}
+
+.schedule_1 .left_div .review_box form .submit_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule_1 .left_div .review_box form .submit_btn div span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #042b26;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.schedule_1 .left_div .review_box form .submit_btn div span.total {
+  color: #042b26;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.schedule_1 .left_div .review_box form .submit_btn button {
+  width: 250px;
+  background-color: #042b26;
+  color: #e5d896;
+  padding: 10px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.Thanks_Container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.Thanks_Container p.title {
+  color: #042b26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.Thanks_Container p.desc {
+  color: #042b26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.Thanks_Container img {
+  width: 314px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Thanks_Container button {
+  width: 350px;
+  background: #042b26;
+  color: #e5d896;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.Service_Drawer p {
+  margin: 0;
+}
+.Service_Drawer .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+}
+.Service_Drawer .heading p {
+  color: #042b26;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: Poppins;
+  width: 100%;
+  margin: 0;
+}
+
+.Service_Drawer .heading img {
+  width: 30px;
+  cursor: pointer;
+}
+.SacFont {
+  font-family: Sacramento !important;
+}
+
+.Service_Drawer .product-container {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Service_Drawer .product-container .Items {
+  width: 344px;
+  margin-top: 40px;
+}
+.Service_Drawer .product-container .Items img {
+  width: 100%;
+}
+.Service_Drawer .product-container .Items p.title {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.Service_Drawer .product-container .Items p.member {
+  color: #fc0005;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: Poppins;
+}
+.Service_Drawer .product-container .Items .price-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.Service_Drawer .product-container .Items .price-container .mrp {
+  color: rgba(30, 30, 30, 0.7);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Service_Drawer .product-container .Items .price-container .selling-price {
+  color: #042b26;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Service_Drawer .product-container .Items .interes {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Service_Drawer .product-container .Items a {
+  color: #042b26;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.Service_Drawer .product-container button {
+  width: 100%;
+  border: 1px solid #e5d896;
+  background-color: #e5d896;
+  padding: 10px;
+  margin-top: 20px;
+  color: #042b26;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Service Detail Page */
+.service_details_page {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+}
+.service_details_page .main_Img {
+  width: 100%;
+  max-height: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.service_details_page .main_Img img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  max-height: 600px;
+  width: 100%;
+}
+.service_details_page .laser_heading {
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.service_details_page .laser_heading p {
+  color: #042b26;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.service_details_page .laser_heading button {
+  background: #e5d896;
+  width: 300px;
+  border: 1px solid #e5d896;
+  padding: 10px;
+  color: #042b26;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.service_details_page .content {
+  width: 100%;
+  margin-top: 20px;
+}
+.service_details_page .content p.desc {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 5px;
+}
+.service_details_page .content p.title {
+  color: #042b26;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.service_details_page .content ul {
+  list-style: disc;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.service_details_page .content ul li {
+  color: #042b26;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.service_details_page .center_img {
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service_details_page .center_img img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.Limited_offer {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-height: 600px;
+}
+.Limited_offer img {
+  max-width: 100%;
+  width: auto;
+  display: block;
+  margin: auto;
+  max-height: 600px;
+  height: auto;
+  cursor: pointer;
+}
+
+.offer_Drawer .heading div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.offer_Drawer .heading div p {
+  width: auto;
+}
+.offer_Drawer .heading div img {
+  width: 50px;
+}
+.offer_Drawer .product-container .Items {
+  position: relative;
+}
+.offer_Drawer .product-container .offer {
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 140px !important;
+}
+
+.service-card {
+  max-width: 1400px;
+  margin: auto;
+}
+.privacy_policy {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.privacy_policy p.desc {
+  font-size: 16px !important;
+  margin-top: 20px !important;
+}
+
+.FAQ-Container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.FAQ-Container
+  :where(.css-dev-only-do-not-override-pr0fja).ant-collapse-borderless {
+  background-color: #fff;
+}
+
+.FAQ-Container
+  :where(.css-dev-only-do-not-override-pr0fja).ant-collapse-borderless
+  > .ant-collapse-item {
+  border-bottom: none;
+  margin-top: 20px;
+}
+
+.FAQ-Container
+  :where(.css-dev-only-do-not-override-pr0fja).ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header {
+  background-color: #e5d896;
+}
+
+.FAQ-Container
+  :where(.css-dev-only-do-not-override-pr0fja).ant-collapse-borderless
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-top: 20px;
+}
+
+.forget-password {
+  max-width: 800px;
+  margin: auto;
+  background: #042b26;
+  padding: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.forget-password .title {
+  color: #e5d896;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.forget-password .otp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.forget-password div p {
+  color: #e5d896;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.forget-password div input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.forget-password .otp div {
+  width: 60%;
+}
+.forget-password button {
+  background: #e5d896;
+  color: #042b26;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px;
+  width: 200px;
+}
+.forget-password button.verify {
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}

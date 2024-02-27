@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Waiter & Waitress",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim?",
+      "image": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693415456/images/image/dlt2hnwykh8qncv4khfo.png",
+      "link": "",
+      "rate": "12-15"
+    },
+    {
+      "id": 2,
+      "title": "Bartender",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim?",
+      "image": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693416144/images/image/ggls4vhrmkcznhkivpqi.png",
+      "link": "",
+      "rate": "15-20"
+    },
+    {
+      "id": 3,
+      "title": "Headchef",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim?",
+      "image": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693415606/images/image/lqbsui0qltj9upe3wn4b.png",
+      "link": "",
+      "rate": "20-25"
+    },
+    {
+      "id": 4,
+      "title": "Host / Hostess",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim?",
+      "image": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693415577/images/image/ma3yuziijtx9yordmsw2.png",
+      "link": "",
+      "rate": "10-15"
+    },
+    {
+      "id": 5,
+      "title": "Bar Back",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim?",
+      "image": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693415514/images/image/gt2cmgu7sisdsf22inpa.png",
+      "mainim": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693416342/images/image/wyetepvpqzxavhe2emjz.png",
+      "link": "",
+      "rate": "10-15"
+    },
+    {
+      "id": 6,
+      "title": "Food Runners",
+      "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum minima perspiciatis, quae pariatur aspernatur eligendi placeat natus inventore et non fugiat incidunt consectetur animi enim?",
+      "image": "https://res.cloudinary.com/dbrvq9uxa/image/upload/v1693415669/images/image/uliufz4xfkxi1o9aljhd.png",
+      "link": "",
+      "rate": "12-15"
+    }
+  ]
+}

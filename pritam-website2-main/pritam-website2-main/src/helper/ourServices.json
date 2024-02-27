@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "/Image/66.png",
+      "title": "Event Booking",
+      "link": "/event-booking"
+    },
+    {
+      "id": 2,
+      "image": "/Image/35.png",
+      "title": "Full Bar Service",
+      "link": "/book-full-bar"
+    },
+    {
+      "id": 3,
+      "image": "/Image/68.png",
+      "title": "Casual & Permanent Staffing",
+      "link": "/permanent-job"
+    },
+    {
+      "id": 4,
+      "image": "/Image/60.png",
+      "title": "Join Bar Academy",
+      "link": "/bartending"
+    },
+    {
+      "id": 5,
+      "image": "/Image/66.png",
+      "title": "Event Booking",
+      "link": "/event-booking"
+    },
+    {
+      "id": 6,
+      "image": "/Image/35.png",
+      "title": "Full Bar Service",
+      "link": "/book-full-bar"
+    }
+  ]
+}

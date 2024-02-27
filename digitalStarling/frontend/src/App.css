@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.signup-page{
+
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 50%;
+  height: 70%;
+  padding-bottom: 5%;
+
+ } 
+ 
+.login-page{
+
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 40%;
+  height: 70%;
+  padding-bottom: 5%;
+  
+}
+
+
+
+.Signup-text{
+  color: red;
+  padding-top: 30px;
+
+}
+.label-name{
+  padding: 8px 35px;
+  margin-left: 20px;
+  
+}
+.email{
+  padding: 8px 35px;
+  margin-left: 25px;
+}
+.number{
+  padding: 8px 35px;
+  margin-left: 7px;
+}
+.password{
+  padding: 8px 35px;
+}
+.submitbtn{
+  padding: 8px 18px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 13px;
+ 
+}
+
+.task-list{
+  font-size: 40px;
+  color: red;
+  padding-top: 30px;
+
+}
+.task-name{
+  padding: 8px 35px;
+  margin-left: 25px;
+
+}
+.task-content{
+  padding: 8px 35px;
+  margin-left: 25px;
+}
+.loginbtn{
+  padding: 8px 18px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 13px;
+ 
+}
+.createbtn{
+  padding: 8px 18px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+ 
+}
+.editbtn{
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color:green;
+  color: white;
+  font-size: 13px;
+ 
+}
+.deletebtn{
+  padding: 8px 18px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 13px;
+ 
+}
+.task-name-todo{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.task-todo-list{
+  margin: auto;
+  box-shadow: rgba(236, 63, 63, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 40%;
+} 
+ul>li{
+  list-style: none;
+}
+.atag-clr{
+  cursor: pointer;
+  color: blue;
+}
+
+.navbar{
+ display: flex; 
+ background-color: red;
+ height: 50px;
+
+}
+.tast-nav{
+  margin-top: 10px;
+  margin-left: 600px;
+  padding: 5px 20px;
+  border-radius: 5px;
+
+}
+.tast-signup{
+  margin-top: 10px;
+  padding: 5px 15px;
+  margin-left: 200px;
+  border-radius: 5px;
+}
+.WelcomeParent{
+  margin-top: 15%;
+  font-size: 78px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+/* ................... */
+.input-box{
+  padding: 8px 30px;
+}
+
+.search-button{
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color:green;
+  color: white;
+  font-size: 13px;
+}
+.product{
+  width: 250px;
+  
+}
+.img-size{
+  width: 150px;
+}
+.incresebtn{
+
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color:green;
+  color: white;
+  font-size: 13px; 
+}
+.decresebtn{
+
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color:green;
+  color: white;
+  font-size: 13px; 
+}
+.delete-logo{
+
+  padding: 6px 13px;
+  border-radius: 4px;
+  background-color:red;
+  color: white;
+  font-size: 12px; 
+}
+.parentDiv{
+  display: grid;
+  width: 80%;
+  margin: auto;
+ margin-top: 100px;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.shopping-btn{
+  margin-top: 100px;
+  padding: 16px 22px;
+  border-radius: 4px;
+  background-color:green;
+  color: white;
+  font-size: 13px; 
+}
